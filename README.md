@@ -1,0 +1,1 @@
+# PiScoreboard-AutoSetup
