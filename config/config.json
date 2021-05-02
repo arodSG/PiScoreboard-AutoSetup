@@ -1,0 +1,46 @@
+{
+	"preferred": {
+		"teams": ["White Sox"],
+		"divisions": ["AL Central"]
+	},
+	"news_ticker": {
+		"team_offday": true,
+		"always_display": false,
+		"preferred_teams": true,
+		"traderumors": true,
+		"mlb_news": true,
+		"countdowns": true,
+		"date": true,
+		"date_format": "%A, %B %-d"
+	},
+	"standings": {
+		"team_offday": true,
+		"mlb_offday": true,
+		"always_display": false
+	},
+	"rotation": {
+		"enabled": true,
+		"scroll_until_finished": true,
+		"only_preferred": true,
+		"rates": {
+			"live": 15.0,
+			"final": 15.0,
+			"pregame": 15.0
+		},
+		"while_preferred_team_live": {
+			"enabled": false,
+			"during_inning_breaks": false
+		}
+	},
+	"weather": {
+		"apikey": "8ff0af3b914beaf1a0c6b9be31e72c12",
+		"location": "Chicago,IL,US",
+		"metric_units": false
+	},
+	"time_format": "12h",
+	"end_of_day": "00:00",
+	"full_team_names": false,
+	"scrolling_speed": 3,
+	"debug": false,
+	"demo_date": false
+}
