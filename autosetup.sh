@@ -12,6 +12,12 @@ sudo ./install.sh
 # move script folder
 sudo cp /home/pi/PiScoreboard-AutoSetup/scripts /home/pi
 
+# move custom config file
+sudo cp /home/pi/PiScoreboard-AutoSetup/config/config.json /home/pi/mlb-led-scoreboard/config.json
+
+# move custom ledcoords layout file
+sudo cp /home/pi/PiScoreboard-AutoSetup/ledcoords/w64h32.json /home/pi/mlb-led-scoreboard/ledcoords/w64h32.json
+
 # set up service so scoreboard will run automatically on boot
 sudo cp /home/pi/PiScoreboard-AutoSetup/service/mlb-led-scoreboard.service /etc/systemd/system/mlb-led-scoreboard.service
 sudo systemctl enable mlb-led-scoreboard.service
