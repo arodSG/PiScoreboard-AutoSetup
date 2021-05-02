@@ -13,13 +13,13 @@ sudo ./install.sh
 sudo cp /home/pi/PiScoreboard-AutoSetup/scripts /home/pi
 
 # move custom config file
-sudo cp /home/pi/PiScoreboard-AutoSetup/config/config.json /home/pi/mlb-led-scoreboard/config.json
-
+sudo cp /home/pi/PiScoreboard-AutoSetup/mlb-led-scoreboard/config.json /home/pi/mlb-led-scoreboard/config.json
 # move custom ledcoords layout file
-sudo cp /home/pi/PiScoreboard-AutoSetup/ledcoords/w64h32.json /home/pi/mlb-led-scoreboard/ledcoords/w64h32.json
-
+sudo cp /home/pi/PiScoreboard-AutoSetup/mlb-led-scoreboard/ledcoords/w64h32.json /home/pi/mlb-led-scoreboard/ledcoords/w64h32.json
 # move custom ledcolors layout file
-sudo cp /home/pi/PiScoreboard-AutoSetup/ledcolors/scoreboard.json /home/pi/mlb-led-scoreboard/ledcolors/scoreboard.json
+sudo cp /home/pi/PiScoreboard-AutoSetup/mlb-led-scoreboard/ledcolors/scoreboard.json /home/pi/mlb-led-scoreboard/ledcolors/scoreboard.json
+# move modified renderers files
+sudo cp /home/pi/PiScoreboard-AutoSetup/mlb-led-scoreboard/renderers/pregame.py /home/pi/mlb-led-scoreboard/renderers/pregame.py
 
 # set up service so scoreboard will run automatically on boot
 sudo cp /home/pi/PiScoreboard-AutoSetup/service/mlb-led-scoreboard.service /etc/systemd/system/mlb-led-scoreboard.service
